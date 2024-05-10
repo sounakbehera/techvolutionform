@@ -1,0 +1,40 @@
+body {
+    background-color: #f5f5f5; /* Light Gray */
+    color: #333333; /* Dark Gray */
+    font-weight: lighter;
+    padding: 50px;
+    font-family: Arial, sans-serif; /* Default font family */
+}
+
+#registrationForm {
+    border: 2px solid #ccc; /* Light Gray */
+    padding: 30px; /* Reduced padding for a more compact form */
+    background-color: #fff; /* White */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.heading {
+    background: #3498db; /* Dodger Blue */
+    color: #ffffff; /* White */
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin for a better layout */
+    padding: 20px; /* Increased padding for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font family */
+}
+
+
+.register-button {
+    background-color: #4CAF50; /* Green */
+    color: #ffffff; /* White */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.register-button:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}
